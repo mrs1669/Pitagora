@@ -13,10 +13,9 @@ void setup(){
 }
 
 void draw(){
-  background(0);
- mass_ku_archer_r(75,550,100);
-
   
+  ikusa();
+  heiwa();
   
   debug();
 }
