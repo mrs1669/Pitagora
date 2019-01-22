@@ -11,6 +11,7 @@ void setup(){
   size(1366,768);
   debugFont = createFont("HGS教科書体",50);
   
+  load_sound();
   Ani();
 }
 
@@ -18,6 +19,7 @@ void draw(){
   
   ikusa();
   heiwa();
-  
+  cutin();
+  sound();
   debug();
 }
