@@ -1,5 +1,5 @@
 void heiwa(){  
-  if(frameCount>299&&frameCount<600){
+  if(frameCount>599&&frameCount<600){
     background(255);
     
   mass_no_archer_r(70,590,50);
