@@ -65,5 +65,8 @@ void ikusa(){
   mass_ku_swordman_l(910-x4,195+y4,50);
   mass_ku_swordman_l(940-x5,190+y5,50);
   mass_ku_swordman_l(970-x6,185+y6,50); //left swordman
+  
+  king(width+300+x13,height/2,500);
+  
   }
 }

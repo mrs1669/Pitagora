@@ -18,5 +18,10 @@
   e1 = minim.loadFile("e1.mp3"); 
   e2 = minim.loadFile("e2.mp3"); 
   e3 = minim.loadFile("e3.mp3");
+  launch = minim.loadFile("launch.wav");
+  b1 = minim.loadFile("b1.mp3");
+  b2 = minim.loadFile("b2.mp3");
+  alart1 = minim.loadFile("alart1.mp3");
+  alart2 = minim.loadFile("alart1.mp3");
   }
   

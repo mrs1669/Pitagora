@@ -1,5 +1,5 @@
   //
-  //  WW
+  //  WW.pde
   //  White Wild
   //
   //  Created by Takumi Muraishi on 2018/1/22
@@ -10,7 +10,7 @@ void setup(){
   smooth();
   size(1366,768);
   debugFont = createFont("HGS教科書体",50);
-  
+  load_image();
   load_sound();
   Ani();
 }
@@ -21,5 +21,11 @@ void draw(){
   heiwa();
   cutin();
   sound();
+  
+  
+  //king(300,300,300);
+  
+ 
+  
   debug();
 }

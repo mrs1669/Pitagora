@@ -8,7 +8,7 @@
 
 void swordman_r(float x, float y, float s){
   noStroke();
-  fill(0,255,0);
+  color_r();
   ellipse(x,y-s/3,s/3,s/3); //head
   rect(x-s/12,y-s/3,s/6,s/2); //body
   rect(x-s/4,y-s/24,s/2,s/12); //arm
@@ -23,7 +23,7 @@ void swordman_r(float x, float y, float s){
 
 void swordman_r_special(float x, float y, float s, int c){
   noStroke();
-  fill(0,255,0,c);
+  color_r_special(c);
   ellipse(x,y-s/3,s/3,s/3); //head
   rect(x-s/12,y-s/3,s/6,s/2); //body
   rect(x-s/4,y-s/24,s/2,s/12); //arm

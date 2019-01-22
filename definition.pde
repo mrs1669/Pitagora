@@ -17,6 +17,12 @@ int x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,x15,x16,x17,x18,x19,x20,x21,x
     c7,c8,c9,c10,
     sx,sy;
     
+PImage missile_img,missile_r_img;
+
+
+float itoh=0,ditoh=0;
+int guard_x=300;
+    
 AniSequence seq;
 Minim minim;
-AudioPlayer alarm,s1,s2,s3,s4,s5,s6,e1,e2,e3;
+AudioPlayer alarm,s1,s2,s3,s4,s5,s6,e1,e2,e3,launch,b1,b2,alart1,alart2;
