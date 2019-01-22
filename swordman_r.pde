@@ -16,6 +16,7 @@ void swordman_r(float x, float y, float s){
   triangle(x+s/12,y+s/6,x,y+s/6,x+s/12,y+s/2); //right foot
   ellipse(x-s/4,y,s/8,s/8); //left hand
   ellipse(x+s/4,y,s/8,s/8); //right hand
+  fill(255,0,0);
   quad(x+s*8/32,y,x+s*9/36,y+s/32,x+s*17/32,y-s*7/32,x+s*16/32,y-s*8/32);
   quad(x+s*10/32,y-s*4/32,x+s*19/64,y-s*7/64,x+s*24/64,y-s*2/64,x+s*25/64,y-s*3/64);
 }
