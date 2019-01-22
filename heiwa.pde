@@ -1,3 +1,11 @@
+  //
+  //  heiwa.pde
+  //  White Wild
+  //
+  //  Created by Takumi Muraishi on 2018/1/22
+  //  Copyright© Takumi Muraishi. All rights reserved.
+  //
+
 void heiwa(){  
   if(frameCount>1499&&frameCount<3000){
     background(255);

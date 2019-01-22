@@ -170,7 +170,7 @@ void Ani(){
   seq.add(Ani.to(this, 0.2, "c7:210",Ani.LINEAR));
   seq.add(Ani.to(this, 0.2, "c8:210",Ani.LINEAR));
   seq.add(Ani.to(this, 0.2, "c9:210",Ani.LINEAR));
-  seq.add(Ani.to(this, 0.2, "c10:210",Ani.LINEAR));
+  seq.add(Ani.to(this, 0. 2, "c10:210",Ani.LINEAR));
   seq.endStep();
   seq.beginStep();
   seq.add(Ani.to(this, 0.2, "c7:0",Ani.LINEAR));
@@ -192,6 +192,11 @@ void Ani(){
   seq.add(Ani.to(this, 0.3, "x8:2190",Ani.LINEAR));
   seq.add(Ani.to(this, 0.3, "x9:2170",Ani.LINEAR));
   seq.add(Ani.to(this, 0.3, "x10:2150",Ani.LINEAR));
+  seq.add(Ani.to(this, 2, "x11:500,y11:-1500",Ani.QUART_IN));
+  seq.endStep();
+  
+  seq.beginStep();
+  seq.add(Ani.to(this, 2, "x12:-500,x11:2000",Ani.QUART_IN));
   seq.endStep();
   
   
